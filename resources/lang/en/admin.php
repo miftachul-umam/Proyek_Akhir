@@ -129,5 +129,72 @@ return [
         ],
     ],
 
+    'dosen' => [
+        'title' => 'Dosens',
+
+        'actions' => [
+            'index' => 'Dosens',
+            'create' => 'New Dosen',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            
+        ],
+    ],
+
+    'matkul' => [
+        'title' => 'Matkuls',
+
+        'actions' => [
+            'index' => 'Matkuls',
+            'create' => 'New Matkul',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            
+        ],
+    ],
+
+    'matkul' => [
+        'title' => 'Matkuls',
+
+        'actions' => [
+            'index' => 'Matkuls',
+            'create' => 'New Matkul',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            'kode_matkul' => 'Kode matkul',
+            'matkul' => 'Matkul',
+            'sks' => 'Sks',
+            'dosen_pengampu' => 'Dosen pengampu',
+            'kelas' => 'Kelas',
+            'hari' => 'Hari',
+            'jam' => 'Jam',
+            
+        ],
+    ],
+
+    'pengajar' => [
+        'title' => 'Pengajar',
+
+        'actions' => [
+            'index' => 'Pengajar',
+            'create' => 'New Pengajar',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            
+        ],
+    ],
+
     // Do not delete me :) I'm used for auto-generation
 ];

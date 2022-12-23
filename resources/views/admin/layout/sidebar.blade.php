@@ -3,9 +3,13 @@
         <ul class="nav">
             <li class="nav-title">{{ trans('brackets/admin-ui::admin.sidebar.content') }}</li>
             
-           <li class="nav-item"><a class="nav-link" href="{{ url('admin/embohs') }}"><i class="nav-icon icon-flag"></i> {{ trans('Mahasiswa') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/embohs') }}"><i class="nav-icon icon-user"></i> {{ trans('Mahasiswa') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/dosens') }}"><i class="nav-icon icon-user"></i> {{ trans('admin.dosen.title') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/matkuls') }}"><i class="nav-icon icon-puzzle"></i> {{ trans('admin.matkul.title') }}</a></li>
            <li class="nav-item"><a class="nav-link" href="{{ url('admin/mahasiswas') }}"><i class="nav-icon icon-drop"></i> {{ trans('Upload File') }}</a></li>
            <li class="nav-item"><a class="nav-link" href="{{ url('admin/events') }}"><i class="nav-icon icon-globe"></i> {{ trans('admin.event.title') }}</a></li>
+           
+           
            {{-- Do not delete me :) I'm used for auto-generation menu items --}}
 
             <li class="nav-title">{{ trans('brackets/admin-ui::admin.sidebar.settings') }}</li>

@@ -84,3 +84,40 @@ $factory->define(App\Models\Event::class, static function (Faker\Generator $fake
         
     ];
 });
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Dosen::class, static function (Faker\Generator $faker) {
+    return [
+        
+        
+    ];
+});
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Matkul::class, static function (Faker\Generator $faker) {
+    return [
+        
+        
+    ];
+});
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Matkul::class, static function (Faker\Generator $faker) {
+    return [
+        'kode_matkul' => $faker->sentence,
+        'matkul' => $faker->sentence,
+        'sks' => $faker->randomNumber(5),
+        'dosen_pengampu' => $faker->text(),
+        'kelas' => $faker->sentence,
+        'hari' => $faker->date(),
+        'jam' => $faker->time(),
+        'created_at' => $faker->dateTime,
+        'updated_at' => $faker->dateTime,
+        
+        
+    ];
+});
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Pengajar::class, static function (Faker\Generator $faker) {
+    return [
+        
+        
+    ];
+});

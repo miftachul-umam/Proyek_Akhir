@@ -5,3 +5,6 @@ import './mahasiswa';
 import './umam';
 import './emboh';
 import './event';
+import './dosen';
+import './matkul';
+import './pengajar';
